@@ -6,7 +6,7 @@ from io import BytesIO
 from PIL import Image
 
 # Load and display the logo
-logo = Image.open("CNX logo.png")
+logo = Image.open("CNX LOGO.png")
 st.image(logo, width=150)  # Adjust width as needed
 
 
