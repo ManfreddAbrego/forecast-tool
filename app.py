@@ -3,6 +3,12 @@ import pandas as pd
 from statsmodels.tsa.holtwinters import ExponentialSmoothing
 import matplotlib.pyplot as plt
 from io import BytesIO
+from PIL import Image
+
+# Load and display the logo
+logo = Image.open("CNX logo.png")
+st.image(logo, width=150)  # Adjust width as needed
+
 
 # Set up the web page
 st.set_page_config(page_title="📊 Accurate Forecast Tool", layout="wide")
