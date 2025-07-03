@@ -7,7 +7,7 @@ from PIL import Image
 
 # Load and display the logo
 logo = Image.open("CNX LOGO.png")
-st.image(logo, width=350)  # Adjust width as needed
+st.image(logo, width=250)  # Adjust width as needed
 
 
 # Set up the web page
